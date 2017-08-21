@@ -1,0 +1,42 @@
+<link rel="import" href="../polymer/polymer-element.html">
+
+<dom-module id="header-resume">
+  <template>
+    <style>
+      :host {
+        display: block;
+      }
+    </style>
+    <h1>Jerónimo Adrián Blando Garduño</h1>
+    <div>
+      <nav>
+        <a href="">Quién soy?</a>
+        <a href="">Experiencia</a>
+      </nav>
+    </div>
+  </template>
+
+  <script>
+    /**
+     * `header-resume`
+     * 
+     *
+     * @customElement
+     * @polymer
+     * @demo demo/index.html
+     */
+    class HeaderResume extends Polymer.Element {
+      static get is() { return 'header-resume'; }
+      static get properties() {
+        return {
+          prop1: {
+            type: String,
+            value: 'header-resume'
+          }
+        };
+      }
+    }
+
+    window.customElements.define(HeaderResume.is, HeaderResume);
+  </script>
+</dom-module>
