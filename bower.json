@@ -2,7 +2,8 @@
   "name": "header-resume",
   "main": "header-resume.html",
   "dependencies": {
-    "polymer": "Polymer/polymer#^2.0.0"
+    "polymer": "Polymer/polymer#^2.0.0",
+    "styles-resume": "https://github.com/jeromeelf/styles-resume.git"
   },
   "devDependencies": {
     "iron-demo-helpers": "PolymerElements/iron-demo-helpers#^2.0.0",

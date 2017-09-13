@@ -1,19 +1,49 @@
-<link rel="import" href="../polymer/polymer-element.html">
+<link rel="import" href="../polymer/polymer.html">
+<link rel="import" href="../styles-resume/styles-resume.html">
 
 <dom-module id="header-resume">
   <template>
+    <!--! do not remove -->
     <style>
       :host {
         display: block;
       }
+
+      .header-container {
+        overflow-x: hidden;
+      }
+
+      .title-principal {
+        @apply --resume-title-principal;
+      }
+
+      .menu-container {
+        width: 40%;
+        float: left;
+        z-index: 1;
+        position: relative;
+        left: 0;
+        @apply --resume-menu-container;
+      }
+
+      .menu-item {
+        @apply --resume-menu-item;
+      }
+
+      .menu-item:last-child {
+        border: none;
+      }
     </style>
-    <h1>Jerónimo Adrián Blando Garduño</h1>
-    <div>
-      <nav>
-        <a href="">Quién soy?</a>
-        <a href="">Experiencia</a>
-      </nav>
+    
+    <div class="header-container">
+      <div class="title-principal">Jerónimo Adrián Blando Garduño</div>
+
+      <div class="menu-container">
+        <div class="menu-item">Quién soy?</div>
+        <div class="menu-item">Experiencia</div>
+      </div>
     </div>
+
   </template>
 
   <script>
