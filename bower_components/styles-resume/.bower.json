@@ -13,11 +13,11 @@
     "polymer": "^2.0.0"
   },
   "homepage": "https://github.com/jeromeelf/styles-resume",
-  "_release": "fc8922864a",
+  "_release": "62ea8610ac",
   "_resolution": {
     "type": "branch",
     "branch": "master",
-    "commit": "fc8922864aa5ca417516f5ed99c89084d220083b"
+    "commit": "62ea8610ac8e2ca13ac68bf5000865a9e1bb58df"
   },
   "_source": "https://github.com/jeromeelf/styles-resume.git",
   "_target": "*",
